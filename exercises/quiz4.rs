@@ -5,12 +5,10 @@
 
 // Write a macro that passes the quiz! No hints this time, you can do it!
 
-// I AM NOT DONE
+
 macro_rules! my_macro{
     ($a:expr)=>{
-        let mut a = "Hello ";
-        let mut b = $a.to_string();
-        return a+b
+        "Hello ".to_string() + $a
     }
 }
 // macro_rules! add{
