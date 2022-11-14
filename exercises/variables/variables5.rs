@@ -6,6 +6,7 @@
 fn main() {
     let number = "T-H-R-E-E"; // don't change this line
     println!("Spell a Number : {}", number);
+    let mut number=0;
     number = 3;
     println!("Number plus two is : {}", number + 2);
 }
